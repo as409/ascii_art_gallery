@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+	
+
+	<form method="post">
+		<label>
+			
+			<input type="text" name="title" value="{{title}}" placeholder=" Title">
+		</label>
+		<br>
+		<br>
+
+		<lable>
+			
+			<textarea name="art" placeholder=" Paste your art here">{{art}}</textarea>
+			<input type="submit">
+			<div class="error">{{error}}</div>
+		</lable>
+	</form>
+
+	<hr>
+
+	{% for piece in arts %}
+		<div class="art">
+			<div class="art-title">{{piece.title}}</div>
+			<pre class="art-body">{{piece.art}}</pre>
+		</div>
+	{% endfor %}
+
+{% endblock %}
+
