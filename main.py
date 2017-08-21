@@ -70,6 +70,4 @@ class MainHandler(Handler):
     		error = "We need both title and ascii art."
     		self.render_front(title, art, error)
 
-app = webapp2.WSGIApplication([
-    ('/', MainHandler)
-], debug=True)
+app = webapp2.WSGIApplication([('/', MainHandler)], debug=True)
