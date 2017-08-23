@@ -12,7 +12,9 @@ https://asciiart-177120.appspot.com/
 
 - Google App Engine SDK for Python <a href="https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python">Download and install instructions</a>
 - Clone this repository: ''' git clone https://github.com/as409/ascii_art_gallery '''
-
+ 
+ ''' reg '''
+ 
 ### Run a development instance
 
 - Run dev_appserver.py . within the source directory
