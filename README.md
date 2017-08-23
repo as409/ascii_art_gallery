@@ -11,7 +11,7 @@ https://asciiart-177120.appspot.com/
 ### Requirements
 
 - Google App Engine SDK for Python <a href="https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python">Download and install instructions</a>
-- Clone this repository: '''git clone https://github.com/as409/ascii_art_gallery'''
+- Clone this repository: ''' git clone https://github.com/as409/ascii_art_gallery '''
 
 ### Run a development instance
 
@@ -22,6 +22,6 @@ https://asciiart-177120.appspot.com/
 ## Deploy to an App Engine instance
 
 - Create a new project on cloud.google.com
-- Run the command '''gcloud init''' and select the desired project
-- Deploy with '''gcloud app deploy app.yaml''' (<a href="https://cloud.google.com/sdk/gcloud/reference/app/deploy">See the documentation)</a> in the source directory
+- Run the command ''' gcloud init ''' and select the desired project
+- Deploy with ''' gcloud app deploy app.yaml ''' (<a href="https://cloud.google.com/sdk/gcloud/reference/app/deploy">See the documentation)</a> in the source directory
 
